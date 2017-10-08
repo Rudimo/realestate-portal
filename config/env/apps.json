@@ -1,0 +1,12 @@
+{
+  "applications": [
+    {
+      "name" : "realza",
+      "path" : "./app/bootstrap.js"
+    },
+    {
+      "name": "Admin UI",
+      "path": "nodejs-admin"
+    }
+  ]
+}

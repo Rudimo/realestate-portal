@@ -1,0 +1,443 @@
+.ng-invalid:not(form) {
+  border: solid 2px rgba(255, 65, 72, 0.37);
+}
+.left-img {
+  float: left;
+  margin: 19px 48px 7px 0;
+}
+.right-img {
+  float: right;
+  margin: 7px 7px 7px 35px;
+}
+.breadcrumbs {
+  margin: -36px 0 50px;
+}
+.breadcrumbs .custom-breadcrumb {
+  list-style-type: none;
+  padding: 0;
+}
+.breadcrumbs .custom-breadcrumb li {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+.breadcrumbs .custom-breadcrumb li:not(:last-child)::after {
+  display: block;
+  height: 100%;
+  right: -15px;
+  position: absolute;
+  top: -3px;
+  content: "\00bb";
+  font-size: 17px;
+  width: auto;
+}
+.ug-gallery {
+  display: none;
+}
+/***** Index *****/
+.fullheight {
+  background: url('/images/flat-background.jpg');
+  background-position-y: center;
+  background-position-x: center;
+}
+.fullheight h1 {
+  color: #fff;
+  text-align: center;
+}
+.fullheight h5 {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.fullheight .index-region-list {
+  margin: 10px 0 100px;
+  border-radius: 30px;
+  border: 2px solid rgba(226, 226, 226, 0.71);
+  background-color: rgba(255, 255, 255, 0.82);
+  padding: 30px;
+}
+.fullheight .index-region-list ul {
+  list-style-type: none;
+}
+.fullheight .index-region-list ul li a {
+  color: #000;
+  font-size: 14px;
+}
+.fullheight .index-region-list ul li a:hover {
+  color: #005186;
+}
+.welcome .welcome-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+.welcome .welcome-title span {
+  font-size: 30px;
+  color: #179BD7;
+}
+.welcome span {
+  font-size: 16px;
+}
+.article h4 {
+  margin: 20px 0 5px;
+}
+.article p {
+  text-align: justify;
+}
+/***** End Index *****/
+/***** Realestate *****/
+.realestate h4 {
+  font-weight: 400;
+}
+.realestate .clarify-raion {
+  padding: 16px;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+}
+.realestate .clarify-raion i {
+  color: #00A8FF;
+}
+.realestate .sky-form .btn {
+  margin: 10px 0 0;
+}
+/***** End Realestate *****/
+/***** Raions *****/
+.raions,
+.regions,
+.realestate-head {
+  padding-top: 15px;
+}
+.raions h1,
+.regions h1,
+.realestate-head h1 {
+  margin: 50px 0 10px;
+  font-size: 28px;
+}
+.raions .breadcrumbs,
+.regions .breadcrumbs,
+.realestate-head .breadcrumbs {
+  margin-top: 0;
+}
+.raions .breadcrumbs li a,
+.regions .breadcrumbs li a,
+.realestate-head .breadcrumbs li a {
+  color: #fff;
+}
+.raions .breadcrumbs li a:hover,
+.regions .breadcrumbs li a:hover,
+.realestate-head .breadcrumbs li a:hover {
+  color: #00c9ff;
+}
+.raions .breadcrumbs li::after,
+.regions .breadcrumbs li::after,
+.realestate-head .breadcrumbs li::after {
+  color: #fff;
+}
+.raions .raion-list,
+.regions .raion-list,
+.realestate-head .raion-list {
+  margin: 10px 0 100px;
+  border-radius: 30px;
+  border: 2px solid rgba(226, 226, 226, 0.71);
+  background-color: rgba(255, 255, 255, 0.82);
+  padding: 30px;
+}
+.raions .raion-list ul,
+.regions .raion-list ul,
+.realestate-head .raion-list ul {
+  list-style-type: none;
+}
+.raions .raion-list ul li a,
+.regions .raion-list ul li a,
+.realestate-head .raion-list ul li a {
+  color: #000;
+  font-size: 14px;
+}
+.raions .raion-list ul li a:hover,
+.regions .raion-list ul li a:hover,
+.realestate-head .raion-list ul li a:hover {
+  color: #005186;
+}
+/***** End Raions *****/
+/***** Object Item *****/
+.object-item {
+  color: #120f0e;
+}
+.object-item h1 {
+  font-size: 22px;
+  margin: 10px 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.object-item .address {
+  margin: 0 0 20px;
+}
+.object-item .address i {
+  color: #00A8FF;
+}
+.object-item .ug-gallery .ug-textpanel-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.object-item .user-block .contacts .thumbnail {
+  width: 100px;
+  float: right;
+}
+.object-item .user-block .contacts span.user-name {
+  font-size: 18px;
+}
+.object-item .user-block .contacts .phone button.btn-green {
+  margin-top: 12px;
+}
+.object-item .user-block .contacts .phone p {
+  color: #626262;
+  font-size: 12px;
+}
+.object-item .user-block .contacts .report-object {
+  margin-top: 15px;
+}
+.object-item .user-block .contacts .price {
+  margin: 10px 0;
+}
+.object-item .user-block .contacts .price span {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  color: #414141;
+  line-height: 1.5;
+  font-size: 24px;
+}
+.object-item .user-block .contacts .object-statistic {
+  margin: 10px 0;
+}
+.object-item .user-block .contacts .object-statistic span {
+  display: block;
+}
+.object-item .object-info .description {
+  margin-top: 20px;
+}
+.object-item .object-info .description p {
+  text-align: justify;
+}
+.object-item .object-info .object-param {
+  margin-top: 20px;
+}
+.object-item .object-info .object-param ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.object-item .object-info .object-param ul li span:last-child {
+  font-weight: bold;
+}
+.object-item .object-info .object-param ul li ul {
+  padding-left: 40px;
+  font-weight: normal;
+}
+.object-item .object-info .object-param ul.value-check i {
+  color: #18a900;
+}
+/***** END Object Item *****/
+ul.property-list {
+  list-style-type: none;
+}
+.box-body {
+  padding: 20px 10px;
+}
+.btn-file {
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 999px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: 0;
+  cursor: inherit;
+  display: block;
+}
+.separator {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+.price-param-labels span.label {
+  line-height: 26px;
+}
+.btn-sky {
+  background: #FFF;
+  height: 30px;
+  border: 1px solid #ccc;
+  color: #000;
+  padding: 4px 12px;
+}
+.btn-sky:hover,
+.btn-sky:focus {
+  border-color: #179BD7;
+  background-color: #179BD7;
+  color: #FFF;
+}
+.btn-sky.active {
+  border-color: #3796d7;
+  background-color: #3796d7;
+  color: #FFF;
+  box-shadow: none;
+}
+.field {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.field-name {
+  font-size: 14px;
+  padding-top: 4px;
+  padding-left: 30px;
+}
+.inline-field {
+  display: inline-block;
+}
+.inline-field .form-control {
+  display: inline-block;
+}
+.inline-field input {
+  width: 74px;
+}
+.about-all-rooms-area {
+  color: #7d7d7d;
+  font-size: 12px;
+  line-height: 14px;
+}
+.small-input {
+  width: 100px;
+}
+.object-form .form-control {
+  height: 30px;
+  padding: 2px 12px;
+}
+.object-form .checkbox {
+  padding-top: 0;
+  font-size: 12px;
+}
+.object-form .full-width {
+  padding-left: 30px;
+}
+.object-form .not-inline * {
+  display: block;
+}
+.object-form textarea {
+  min-height: 120px;
+}
+.object-item-list {
+  border: 1px solid #eee;
+  -webkit-transition: all 0.3s ease 0.2s;
+  -moz-transition: all 0.3s ease 0.2s;
+  -ms-transition: all 0.3s ease 0.2s;
+  -o-transition: all 0.3s ease 0.2s;
+  transition: all 0.3s ease 0.1s;
+  background: #ffffff;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.object-item-list img {
+  height: 137px;
+  width: 240px;
+}
+.property-info {
+  display: block;
+  padding: 0 0 10px 0;
+  margin-top: -8px;
+  border-bottom: 0;
+}
+.property-info .price {
+  float: right;
+  margin-top: 5px;
+  display: inline-block;
+  background: #666;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: 30px;
+}
+.property-info .price strong {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 7px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  line-height: 30px;
+  height: 30px;
+  display: inline-block;
+  font-weight: 400;
+}
+.property-info .price span {
+  padding: 0 7px;
+  line-height: 30px;
+  height: 30px;
+  font-weight: 700;
+}
+.property-info h3 {
+  margin-bottom: 0;
+  padding-top: 8px;
+  font-size: 16px;
+}
+.property-info h3 a {
+  color: #179BD7;
+}
+.property-info .location {
+  display: inline-block;
+  font-size: 100%;
+  padding: 0 0 10px 0;
+  color: #999;
+  font-style: italic;
+}
+.property-info .location i {
+  color: #f55a4e;
+}
+.property-amenities {
+  background: #f8f8f8;
+  border-bottom: 3px solid #efefef;
+}
+.property-amenities span {
+  display: block;
+  width: 25%;
+  float: left;
+  padding: 4px 0 4px 0;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-right: 1px solid #efefef;
+}
+.property-amenities span strong {
+  display: inline-block;
+  margin-right: 5px;
+}
+/***** Footer *****/
+footer img.footer-logo {
+  height: 60px;
+}
+footer address span {
+  font-size: 14px;
+}
+footer span.letter-spacing-1 {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  color: #cacaca;
+  margin-bottom: 12px;
+}
+/***** End Footer *****/
